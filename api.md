@@ -21,6 +21,27 @@ playInfo.isPlaying = true;
 CSLyricHelper.playing(context, playInfo);
 ```
 
+### 接收歌词
+```java
+IntentFilter filter = new IntentFilter("com.makino.cslyric.getter.action.LYRIC");
+BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        Bundle extra = intent.getExtras();
+        if (extra == null) return;
+        String type = intent.getStringExtra("type");
+        String playInfoSource = extra.getString("playInfo");
+        String lyricDataSource = extra.getString("lyricData");
+        //...
+    }
+};
+if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+    context.registerReceiver(broadcastReceiver, filter, Context.RECEIVER_EXPORTED);
+} else {
+    context.registerReceiver(broadcastReceiver, filter);
+}
+```
+
 ### 封装库
 ```java
 
