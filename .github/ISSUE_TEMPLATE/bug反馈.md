@@ -2,7 +2,7 @@
 name: Bug反馈
 about: 反馈bug请用此模版
 title: ''
-labels: ''
+labels: bug
 assignees: tomakino
 
 ---
