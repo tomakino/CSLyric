@@ -1,8 +1,10 @@
-# CSLyric · 词幕
-词幕是一个Xposed模块，提供系统通知栏歌词扩展功能，您只需要安装激活后并重启，微调设置就可以使用了！非常简单~
+# 词幕
+![GitHub Release](https://img.shields.io/github/v/release/tomakino/CSLyric)
+
+词幕是一个`Xposed模块`，提供系统通知栏歌词扩展功能。使用非常简单，只需要安装激活后并重启，微调设置就可以使用了😁
 
 ## 支持的系统
-- Android 8.1 ~  Android 15
+- Android 8.1 ~ Android 15
 
 ## **支持的播放器**
 
@@ -23,9 +25,9 @@
 | <img src="res/logo/spotify.png" width="24" height="24"> Spotify             |  9.0.46.496   |    Hook     |
 | <img src="res/logo/poweramp.png" width="24" height="24"> Poweramp           | build-991-uni | 音乐元数据（内嵌歌词） |
 
-`基于版本`为建议最低使用版本，更高版本也可能存在兼容性问题。
+`基于版本`为建议最低使用版本，使用更高版本可能存在兼容性问题。
 
-## 演示
+## 演
 
 | 网易云音乐                                                       | QQ音乐                                                            | Spotify                                                         |
 |-------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------|
@@ -34,3 +36,7 @@
 | Apple Music                                                | Apple Music 2                                               |
 |------------------------------------------------------------|-------------------------------------------------------------|
 | <img  src="res/demo/demo_am.gif" width="204" height="238"> | <img  src="res/demo/demo_am2.gif" width="204" height="238"> |
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=tomakino/CSLyric&type=Date)](https://www.star-history.com/#tomakino/CSLyric&Date)
