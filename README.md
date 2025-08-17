@@ -1,3 +1,6 @@
+# 2025.8.17起，此项目无限期停更。
+
+
 # 词幕
 [![GitHub Release](https://img.shields.io/github/v/release/tomakino/CSLyric)](https://github.com/tomakino/CSLyric/releases) 
 [![Static Badge](https://img.shields.io/badge/%E5%8A%A0%E5%85%A5-QQ%E7%BE%A4-blue?logo=qq)](https://qm.qq.com/q/z1gSTZprDW)
