@@ -1,12 +1,12 @@
-# ~~2025.8.17起，此项目无限期停更。~~
-
-
 # 词幕
 [![GitHub Release](https://img.shields.io/github/v/release/tomakino/CSLyric)](https://github.com/tomakino/CSLyric/releases) 
 [![Static Badge](https://img.shields.io/badge/%E5%8A%A0%E5%85%A5-QQ%E7%BE%A4-blue?logo=qq)](https://qm.qq.com/q/z1gSTZprDW)
 ![GitHub All Releases](https://img.shields.io/github/downloads/tomakino/CSLyric/total)
 
 词幕是一个`Xposed模块`，提供系统通知栏歌词扩展功能。使用非常简单，只需要安装激活后并重启，微调设置就可以使用了😁
+
+# 😐 此版本已放弃，请考虑使用新版
+https://github.com/proify/lyricon
 
 ## 支持的系统
 - Android 8.1 ~ Android 15
